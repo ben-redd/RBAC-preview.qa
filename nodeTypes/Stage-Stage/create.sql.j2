@@ -17,7 +17,9 @@
 		{% endfor %}
 	)
 	{%- if node.description | length > 0 %} COMMENT = '{{ node.description | escape }}'{% endif %}
-
+  TBLPROPERTIES(
+  'delta.columnMapping.mode' = 'name', 'delta.feature.allowColumnDefaults' = 'supported'
+)
 
 {% elif node.materializationType == 'view' %}
     {{ stage('Create Stage View') }}

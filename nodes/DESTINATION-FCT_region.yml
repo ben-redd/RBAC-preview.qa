@@ -1,0 +1,113 @@
+fileVersion: 1
+id: 61aec2aa-5c11-40e7-a731-535d222c1829
+name: FCT_region
+operation:
+  config:
+    postSQL: ""
+    preSQL: ""
+    testsEnabled: true
+  database: ""
+  deployEnabled: true
+  description: ""
+  isMultisource: false
+  locationName: DESTINATION
+  materializationType: table
+  metadata:
+    appliedNodeTests: []
+    columns:
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: e9aaa7e3-cdef-4b23-91a1-b8d7d3c26073
+          stepCounter: 61aec2aa-5c11-40e7-a731-535d222c1829
+        config: {}
+        dataType: LONG
+        description: ""
+        name: r_regionkey
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: 57197d33-560f-472e-8a0d-78fc87681557
+                stepCounter: 1e9ac330-3607-4244-a417-73595a247de4
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: da094ebd-a943-4640-8a9e-343b4eb5f712
+          stepCounter: 61aec2aa-5c11-40e7-a731-535d222c1829
+        config: {}
+        dataType: STRING
+        description: ""
+        name: r_name
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: 4e2f5729-8aa7-4659-b4d6-745d394f29e6
+                stepCounter: 1e9ac330-3607-4244-a417-73595a247de4
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: 6bd23104-2b31-48b5-9d24-8c5c3c926596
+          stepCounter: 61aec2aa-5c11-40e7-a731-535d222c1829
+        config: {}
+        dataType: STRING
+        description: ""
+        name: r_comment
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: f3e22c6c-4988-4d2d-a68a-e2a3a5949b92
+                stepCounter: 1e9ac330-3607-4244-a417-73595a247de4
+            transform: ""
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: cd407e78-b01c-4331-b18b-40520409a0b9
+          stepCounter: 61aec2aa-5c11-40e7-a731-535d222c1829
+        config: {}
+        dataType: TIMESTAMP
+        defaultValue: ""
+        description: ""
+        isSystemCreateDate: true
+        name: SYSTEM_CREATE_DATE
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: CAST(CURRENT_TIMESTAMP AS TIMESTAMP)
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: be45b4e6-45ac-4c3c-b42e-b80977d40e88
+          stepCounter: 61aec2aa-5c11-40e7-a731-535d222c1829
+        config: {}
+        dataType: TIMESTAMP
+        defaultValue: ""
+        description: ""
+        isSystemUpdateDate: true
+        name: SYSTEM_UPDATE_DATE
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: CAST(CURRENT_TIMESTAMP AS TIMESTAMP)
+    cteString: ""
+    enabledColumnTestIDs: []
+    sourceMapping:
+      - aliases: {}
+        customSQL:
+          customSQL: ""
+        dependencies:
+          - locationName: SOURCE
+            nodeName: region
+        join:
+          joinCondition: FROM {{ ref('SOURCE', 'region') }} `region`
+        name: FCT_region
+        noLinkRefs: []
+  name: FCT_region
+  overrideSQL: false
+  schema: ""
+  sqlType: Fact
+  type: sql
+  version: 1
+type: Node
