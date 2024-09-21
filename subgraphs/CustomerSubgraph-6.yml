@@ -1,0 +1,8 @@
+fileVersion: 1
+id: "6"
+name: Customer Subgraph
+steps:
+  - 07d4b031-97ce-4230-9517-9a0249ef5baa
+  - 443d1630-1eda-41da-8068-fedb12e511da
+type: Subgraph
+version: 1
