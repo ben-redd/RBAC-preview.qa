@@ -6,6 +6,6 @@ mappingDefinitions:
     schema: dev_main_env
   SOURCE:
     database: coalesce
-    schema: sample_data
+    schema: multisource_sample
 name: Databricks Main
 type: Environment
