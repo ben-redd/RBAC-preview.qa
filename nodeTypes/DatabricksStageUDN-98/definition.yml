@@ -10,6 +10,8 @@ metadata:
     plural: Stages
     tagColor: '#2EB67D'
 
+
+    corrupt YML
     config:
     - groupName: Options
       items:
