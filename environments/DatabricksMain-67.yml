@@ -8,7 +8,7 @@ mappingDefinitions:
     database: coalesce
     schema: sample_data
   TRASH:
-    database: ""
-    schema: ""
+    database: ben-dev
+    schema: trash
 name: Databricks Main
 type: Environment
