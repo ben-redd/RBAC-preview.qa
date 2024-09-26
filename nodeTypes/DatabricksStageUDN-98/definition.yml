@@ -5,10 +5,10 @@ metadata:
   defaultStorageLocation: null
   error: null
   nodeMetadataSpec: |
-    capitalized: Copy of Stage
-    short: STG
+    capitalized: Databricks Stage
+    short: DSTG
     plural: Stages
-    tagColor: '#2EB67D'
+    tagColor: '#123456'
 
     config:
     - groupName: Options
