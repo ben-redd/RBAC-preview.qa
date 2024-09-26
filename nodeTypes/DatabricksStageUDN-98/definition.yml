@@ -10,6 +10,8 @@ metadata:
     plural: Stages
     tagColor: '#123456'
 
+    yml validation error
+
     config:
     - groupName: Options
       items:
