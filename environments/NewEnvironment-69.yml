@@ -1,0 +1,14 @@
+fileVersion: 1
+id: "69"
+mappingDefinitions:
+  DESTINATION:
+    database: ben-dev
+    schema: trash
+  SOURCE:
+    database: ben-dev
+    schema: trash
+  TRASH:
+    database: ben-dev
+    schema: trash
+name: New Environment
+type: Environment
