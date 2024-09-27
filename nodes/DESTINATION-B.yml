@@ -41,7 +41,7 @@ operation:
           - columnReferences:
               - columnCounter: 459d42bb-aaa3-4566-9da2-0c75312cc29f
                 stepCounter: 00967954-0871-4693-98c7-d96550b91262
-            transform: UPPER(`B`.`c_name`)
+            transform: UPPER(`C`.`c_name`)
       - appliedColumnTests: {}
         columnReference:
           columnCounter: 32e46132-a5cd-47bc-b343-893fda4ff0ac
