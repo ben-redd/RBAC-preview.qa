@@ -17,62 +17,26 @@ operation:
   metadata:
     appliedNodeTests: []
     columns:
-      - appliedColumnTests: {}
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
         columnReference:
-          columnCounter: 027684f2-65d3-4a32-a99f-c5b77a092094
+          columnCounter: a897f0ce-49b6-4d27-88f7-4218edf9397f
           stepCounter: d08e8f77-bcab-4f36-8c36-82ff9766c10a
         config: {}
-        dataType: LONG
+        dataType: NUMBER
+        defaultValue: ""
         description: ""
-        name: n_nationkey
+        keyColumnType: None
+        name: new_column
         nullable: true
         sourceColumnReferences:
           - columnReferences:
-              - columnCounter: 62e7c86f-a1e2-492f-8ace-e2458b22dc6c
-                stepCounter: 73ce8ab1-21ef-4c05-b07f-8a23a03bb501
+              - columnCounter: "0"
+                stepCounter: "0"
             transform: ""
-      - appliedColumnTests: {}
-        columnReference:
-          columnCounter: 90b57466-0e5c-41d0-b5c2-18f490745b51
-          stepCounter: d08e8f77-bcab-4f36-8c36-82ff9766c10a
-        config: {}
-        dataType: STRING
-        description: ""
-        name: n_name
-        nullable: true
-        sourceColumnReferences:
-          - columnReferences:
-              - columnCounter: d0294bf2-92b2-4f82-86f9-891e69389854
-                stepCounter: 73ce8ab1-21ef-4c05-b07f-8a23a03bb501
-            transform: LOWER(`STG_nation`.`n_name`)
-      - appliedColumnTests: {}
-        columnReference:
-          columnCounter: 01a454be-76bb-43a3-a306-0ca6a7e0f53b
-          stepCounter: d08e8f77-bcab-4f36-8c36-82ff9766c10a
-        config: {}
-        dataType: LONG
-        description: ""
-        name: n_regionkey
-        nullable: true
-        sourceColumnReferences:
-          - columnReferences:
-              - columnCounter: 55687286-5145-4273-aec3-4d59b972d819
-                stepCounter: 73ce8ab1-21ef-4c05-b07f-8a23a03bb501
-            transform: ""
-      - appliedColumnTests: {}
-        columnReference:
-          columnCounter: 9e15c5ab-4e2f-4ed0-b3b2-047e9a7c931e
-          stepCounter: d08e8f77-bcab-4f36-8c36-82ff9766c10a
-        config: {}
-        dataType: STRING
-        description: ""
-        name: n_comment
-        nullable: true
-        sourceColumnReferences:
-          - columnReferences:
-              - columnCounter: 4bac240b-bef6-4067-9dea-2e1bb723a271
-                stepCounter: 73ce8ab1-21ef-4c05-b07f-8a23a03bb501
-            transform: ""
+        systemColumnType: None
     cteString: ""
     enabledColumnTestIDs: []
     sourceMapping:
