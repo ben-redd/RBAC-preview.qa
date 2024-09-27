@@ -4,7 +4,6 @@ name: New Subgraph
 steps:
   - 4a3f9859-476a-4175-aa21-4bbb79fe8117
   - 73ce8ab1-21ef-4c05-b07f-8a23a03bb501
-  - d08e8f77-bcab-4f36-8c36-82ff9766c10a
   - d62e4a14-383f-4d51-93fa-a963eafebcc7
 type: Subgraph
 version: 1
