@@ -5,8 +5,8 @@ mappingDefinitions:
     database: ben-dev
     schema: trash
   SOURCE:
-    database: ben-dev
-    schema: trash
+    database: coalesce
+    schema: sample_data
   TRASH:
     database: ben-dev
     schema: trash
