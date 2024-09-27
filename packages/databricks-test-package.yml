@@ -1,0 +1,16 @@
+config:
+  entities:
+    nodeTypes:
+      "100":
+        defaultStorageLocation: null
+        isDisabled: false
+      "98":
+        defaultStorageLocation: null
+        isDisabled: false
+  packageVariables: ""
+fileVersion: 1
+id: "@coalesce/databricks-test-package"
+name: databricks-test-package
+packageID: "@coalesce/databricks-test-package"
+releaseID: 2da1471f-b80e-4b91-aa08-b6973d760a19
+type: Package

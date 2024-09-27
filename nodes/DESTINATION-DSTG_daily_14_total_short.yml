@@ -1,5 +1,5 @@
 fileVersion: 1
-id: 72e57a11-215b-4a88-8613-0873802d23c7
+id: 68320e1f-5ed7-4014-a6db-4f29d2cc421b
 name: DSTG_daily_14_total_short
 operation:
   config:
@@ -19,8 +19,8 @@ operation:
     columns:
       - appliedColumnTests: {}
         columnReference:
-          columnCounter: c33da357-5625-4437-9a72-71f6cfd6bb31
-          stepCounter: 72e57a11-215b-4a88-8613-0873802d23c7
+          columnCounter: 81d9dad7-200e-46b0-b5c3-f43624d3c37c
+          stepCounter: 68320e1f-5ed7-4014-a6db-4f29d2cc421b
         config: {}
         dataType: TIMESTAMP
         description: ""
@@ -33,8 +33,8 @@ operation:
             transform: ""
       - appliedColumnTests: {}
         columnReference:
-          columnCounter: 6d52b205-f9a9-4f85-b3ac-111c316ada1c
-          stepCounter: 72e57a11-215b-4a88-8613-0873802d23c7
+          columnCounter: 5c28bb4f-ecc2-4769-aaf9-fd50faeb5f5f
+          stepCounter: 68320e1f-5ed7-4014-a6db-4f29d2cc421b
         config: {}
         dataType: VARIANT
         description: ""
@@ -61,7 +61,7 @@ operation:
   name: DSTG_daily_14_total_short
   overrideSQL: false
   schema: ""
-  sqlType: "98"
+  sqlType: databricks-test-package:::98
   type: sql
   version: 1
 type: Node
