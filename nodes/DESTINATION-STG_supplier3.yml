@@ -1,6 +1,6 @@
 fileVersion: 1
-id: 104b889a-e795-4eaf-8d22-c2a0691e2bec
-name: STG_supplier
+id: a5a2c161-4738-4eef-8823-e1ce43dc21fd
+name: STG_supplier3
 operation:
   config:
     insertStrategy: INSERT
@@ -19,8 +19,8 @@ operation:
     columns:
       - appliedColumnTests: {}
         columnReference:
-          columnCounter: 9ebcb168-11b5-4ca2-9861-f920d062bd40
-          stepCounter: 104b889a-e795-4eaf-8d22-c2a0691e2bec
+          columnCounter: db8e7f08-6ac8-494d-a838-f518228baba9
+          stepCounter: a5a2c161-4738-4eef-8823-e1ce43dc21fd
         config: {}
         dataType: LONG
         description: ""
@@ -28,13 +28,13 @@ operation:
         nullable: true
         sourceColumnReferences:
           - columnReferences:
-              - columnCounter: 5734d2ba-383b-44ab-be4d-9fd1bc23c383
-                stepCounter: e936af1d-4a85-4b61-8c81-61775816e0e8
+              - columnCounter: 63d38f2e-99b1-4c70-a2e2-0c4f9e646f74
+                stepCounter: 4047584c-67a4-43f3-88ad-09319b921af6
             transform: ""
       - appliedColumnTests: {}
         columnReference:
-          columnCounter: f187a0ab-a46d-4cd5-a26c-68f6195b826f
-          stepCounter: 104b889a-e795-4eaf-8d22-c2a0691e2bec
+          columnCounter: ab442378-ff21-4b39-9714-51a1882cc88c
+          stepCounter: a5a2c161-4738-4eef-8823-e1ce43dc21fd
         config: {}
         dataType: STRING
         description: ""
@@ -42,13 +42,13 @@ operation:
         nullable: true
         sourceColumnReferences:
           - columnReferences:
-              - columnCounter: b518c4e3-30a4-424f-ac1f-d0a467d161f8
-                stepCounter: e936af1d-4a85-4b61-8c81-61775816e0e8
+              - columnCounter: c42d8aa3-5c35-44f6-9b18-a52aaf6ab51e
+                stepCounter: 4047584c-67a4-43f3-88ad-09319b921af6
             transform: ""
       - appliedColumnTests: {}
         columnReference:
-          columnCounter: ecf5f390-b0cd-4746-a66d-e88755ac4b61
-          stepCounter: 104b889a-e795-4eaf-8d22-c2a0691e2bec
+          columnCounter: cbc59284-6bba-4e2f-95e4-f6172f0cda19
+          stepCounter: a5a2c161-4738-4eef-8823-e1ce43dc21fd
         config: {}
         dataType: STRING
         description: ""
@@ -56,13 +56,13 @@ operation:
         nullable: true
         sourceColumnReferences:
           - columnReferences:
-              - columnCounter: 999cfea0-55e4-430f-896f-266db02743cf
-                stepCounter: e936af1d-4a85-4b61-8c81-61775816e0e8
+              - columnCounter: 7c5d4704-978b-4b9b-a389-a58937108b5c
+                stepCounter: 4047584c-67a4-43f3-88ad-09319b921af6
             transform: ""
       - appliedColumnTests: {}
         columnReference:
-          columnCounter: 52c95811-6d8a-498f-84a0-14488b107f8c
-          stepCounter: 104b889a-e795-4eaf-8d22-c2a0691e2bec
+          columnCounter: e93fadce-219d-4e16-9add-b09fddefca7a
+          stepCounter: a5a2c161-4738-4eef-8823-e1ce43dc21fd
         config: {}
         dataType: LONG
         description: ""
@@ -70,13 +70,13 @@ operation:
         nullable: true
         sourceColumnReferences:
           - columnReferences:
-              - columnCounter: 90218786-4439-4f98-8d3f-9c15e47238f0
-                stepCounter: e936af1d-4a85-4b61-8c81-61775816e0e8
+              - columnCounter: d2f74161-7de9-4da8-a69d-362e14be9954
+                stepCounter: 4047584c-67a4-43f3-88ad-09319b921af6
             transform: ""
       - appliedColumnTests: {}
         columnReference:
-          columnCounter: 197313d3-b78c-4663-89bb-b113f3d74220
-          stepCounter: 104b889a-e795-4eaf-8d22-c2a0691e2bec
+          columnCounter: f0936cd0-3983-4c82-b6d7-9967f0f97bb7
+          stepCounter: a5a2c161-4738-4eef-8823-e1ce43dc21fd
         config: {}
         dataType: STRING
         description: ""
@@ -84,13 +84,13 @@ operation:
         nullable: true
         sourceColumnReferences:
           - columnReferences:
-              - columnCounter: e2bd9114-9fa8-4851-834f-c26223e78b17
-                stepCounter: e936af1d-4a85-4b61-8c81-61775816e0e8
+              - columnCounter: 99545d9b-d2c0-4cb0-a837-deb7ea115f7f
+                stepCounter: 4047584c-67a4-43f3-88ad-09319b921af6
             transform: ""
       - appliedColumnTests: {}
         columnReference:
-          columnCounter: 6388ad51-c196-4c7b-b6c9-6c76c095b816
-          stepCounter: 104b889a-e795-4eaf-8d22-c2a0691e2bec
+          columnCounter: 449fa672-2bae-4331-a35f-3bf01ec2ba3f
+          stepCounter: a5a2c161-4738-4eef-8823-e1ce43dc21fd
         config: {}
         dataType: DECIMAL
         description: ""
@@ -98,13 +98,13 @@ operation:
         nullable: true
         sourceColumnReferences:
           - columnReferences:
-              - columnCounter: 5b235aea-a1d4-486b-b882-f5bf355adb7c
-                stepCounter: e936af1d-4a85-4b61-8c81-61775816e0e8
+              - columnCounter: 1e402c8d-1e6f-4733-ac25-997fbdbfa6ac
+                stepCounter: 4047584c-67a4-43f3-88ad-09319b921af6
             transform: ""
       - appliedColumnTests: {}
         columnReference:
-          columnCounter: 27bc2db8-1610-4ff0-8fff-6d8a6259a636
-          stepCounter: 104b889a-e795-4eaf-8d22-c2a0691e2bec
+          columnCounter: c6fa92d8-e689-47f9-92e4-6dc557f0f0c2
+          stepCounter: a5a2c161-4738-4eef-8823-e1ce43dc21fd
         config: {}
         dataType: STRING
         description: ""
@@ -112,8 +112,8 @@ operation:
         nullable: true
         sourceColumnReferences:
           - columnReferences:
-              - columnCounter: 6bd95fe9-e662-426c-a14d-4bd071392408
-                stepCounter: e936af1d-4a85-4b61-8c81-61775816e0e8
+              - columnCounter: 5b22b127-2167-46b6-9bd3-a491deb81ded
+                stepCounter: 4047584c-67a4-43f3-88ad-09319b921af6
             transform: ""
     cteString: ""
     enabledColumnTestIDs: []
@@ -122,13 +122,13 @@ operation:
         customSQL:
           customSQL: ""
         dependencies:
-          - locationName: SOURCE
-            nodeName: supplier
+          - locationName: DESTINATION
+            nodeName: STG_supplier2
         join:
-          joinCondition: FROM {{ ref('SOURCE', 'supplier') }} `supplier`
-        name: STG_supplier
+          joinCondition: FROM {{ ref('DESTINATION', 'STG_supplier2') }} `STG_supplier2`
+        name: STG_supplier3
         noLinkRefs: []
-  name: STG_supplier
+  name: STG_supplier3
   overrideSQL: false
   schema: ""
   sqlType: Stage
