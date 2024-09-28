@@ -23,7 +23,7 @@ operation:
           stepCounter: b0d5ed55-3260-4fe3-a93c-6595c0268ed8
         config: {}
         dataType: LONG
-        description: "{{foo()}}"
+        description: ""
         name: c_custkey
         nullable: true
         sourceColumnReferences:
@@ -44,7 +44,7 @@ operation:
           - columnReferences:
               - columnCounter: e1ec78bf-c508-4061-a04d-0f4aa20e2ac1
                 stepCounter: 443d1630-1eda-41da-8068-fedb12e511da
-            transform: ""
+            transform: "{{foo()}}"
       - appliedColumnTests: {}
         columnReference:
           columnCounter: 3ba2038a-1d11-4353-a2fd-19dfc10007f4
