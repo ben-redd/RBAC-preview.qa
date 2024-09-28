@@ -23,7 +23,7 @@ operation:
           stepCounter: b0d5ed55-3260-4fe3-a93c-6595c0268ed8
         config: {}
         dataType: LONG
-        description: ""
+        description: "{{foo()}}"
         name: c_custkey
         nullable: true
         sourceColumnReferences:
