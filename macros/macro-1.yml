@@ -4,5 +4,9 @@ macroString: |-
   {%- macro foo() -%}
   HELLO
   {%- endmacro -%}
+
+  {%- macro even_odd(column) -%}
+      CASE WHEN MOD({{ column }}, 2) = 0 THEN 'EVEN' ELSE 'ODD' END
+  {%- endmacro %}
 name: macro
 type: Macro
