@@ -1,0 +1,106 @@
+fileVersion: 1
+id: 29225ebd-16d9-4187-b4c8-fc43214bb061
+name: ADVV_V2
+operation:
+  config:
+    insertStrategy: UNION
+    selectDistinct: false
+  database: ""
+  deployEnabled: true
+  description: ""
+  isMultisource: false
+  locationName: DESTINATION
+  materializationType: view
+  metadata:
+    appliedNodeTests: []
+    columns:
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: 49876540-6e97-40e6-98ac-93a75e4792e0
+          stepCounter: 29225ebd-16d9-4187-b4c8-fc43214bb061
+        config: {}
+        dataType: LONG
+        description: ""
+        name: ps_partkey
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: fe0dc043-dda4-409c-88dd-e607b4462224
+                stepCounter: 2d90e94d-fccc-4582-a2f1-3363bcd8a4ce
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: f2a50acc-8fb9-43fc-a811-b1e8dbfc07fe
+          stepCounter: 29225ebd-16d9-4187-b4c8-fc43214bb061
+        config: {}
+        dataType: LONG
+        description: ""
+        name: ps_suppkey
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: b09c77d7-ca47-4b52-bd88-529b8afd89da
+                stepCounter: 2d90e94d-fccc-4582-a2f1-3363bcd8a4ce
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: 6bf2b28d-efdd-4e82-8525-2305b2585b56
+          stepCounter: 29225ebd-16d9-4187-b4c8-fc43214bb061
+        config: {}
+        dataType: INT
+        description: ""
+        name: ps_availqty
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: 924ef269-7661-4e2a-b0cf-bd1f384d4ae3
+                stepCounter: 2d90e94d-fccc-4582-a2f1-3363bcd8a4ce
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: 6c5d192b-f0d5-4a60-8862-27791279d6ec
+          stepCounter: 29225ebd-16d9-4187-b4c8-fc43214bb061
+        config: {}
+        dataType: DECIMAL
+        description: ""
+        name: ps_supplycost
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: 5a20b2f3-fc51-4b8b-b7d4-40fe0369bd1a
+                stepCounter: 2d90e94d-fccc-4582-a2f1-3363bcd8a4ce
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: b7a142cd-c645-41f1-b665-8b8df8556cb1
+          stepCounter: 29225ebd-16d9-4187-b4c8-fc43214bb061
+        config: {}
+        dataType: STRING
+        description: ""
+        name: ps_comment
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: 25f05363-5c20-4c65-af88-1a9233984321
+                stepCounter: 2d90e94d-fccc-4582-a2f1-3363bcd8a4ce
+            transform: ""
+    cteString: ""
+    enabledColumnTestIDs: []
+    sourceMapping:
+      - aliases: {}
+        customSQL:
+          customSQL: ""
+        dependencies:
+          - locationName: DESTINATION
+            nodeName: V1
+        join:
+          joinCondition: FROM {{ ref('DESTINATION', 'V1') }} `V1`
+        name: ADVV_V2
+        noLinkRefs: []
+  name: ADVV_V2
+  overrideSQL: false
+  schema: ""
+  sqlType: "108"
+  type: sql
+  version: 1
+type: Node
