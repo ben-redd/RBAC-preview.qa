@@ -1,6 +1,6 @@
 fileVersion: 1
-id: 216bbcee-da06-4e56-add0-4f2a07e2517c
-name: V_partsupp1
+id: b0525d2e-295f-4415-aed6-e0842174e4d4
+name: ADVV_partsupp
 operation:
   config:
     insertStrategy: UNION
@@ -16,8 +16,8 @@ operation:
     columns:
       - appliedColumnTests: {}
         columnReference:
-          columnCounter: 66e65d0b-6a16-4cf3-9462-95b8345ce6a9
-          stepCounter: 216bbcee-da06-4e56-add0-4f2a07e2517c
+          columnCounter: ef9003c6-8057-40b4-ab26-9abe1cf8a72d
+          stepCounter: b0525d2e-295f-4415-aed6-e0842174e4d4
         config: {}
         dataType: LONG
         description: ""
@@ -30,8 +30,8 @@ operation:
             transform: ""
       - appliedColumnTests: {}
         columnReference:
-          columnCounter: 19f1ac4b-cf75-4f2e-b3b6-3616494c5b24
-          stepCounter: 216bbcee-da06-4e56-add0-4f2a07e2517c
+          columnCounter: 166710be-4d0f-4888-9dca-8d3f39143aaa
+          stepCounter: b0525d2e-295f-4415-aed6-e0842174e4d4
         config: {}
         dataType: LONG
         description: ""
@@ -44,8 +44,8 @@ operation:
             transform: ""
       - appliedColumnTests: {}
         columnReference:
-          columnCounter: 5c8d748a-0133-4354-8415-3a8e8fdb9e76
-          stepCounter: 216bbcee-da06-4e56-add0-4f2a07e2517c
+          columnCounter: 39a2a617-b600-40b7-85de-1ca3e558f873
+          stepCounter: b0525d2e-295f-4415-aed6-e0842174e4d4
         config: {}
         dataType: INT
         description: ""
@@ -58,8 +58,8 @@ operation:
             transform: ""
       - appliedColumnTests: {}
         columnReference:
-          columnCounter: b703ed9d-791c-4902-8873-6dc86cb7cf93
-          stepCounter: 216bbcee-da06-4e56-add0-4f2a07e2517c
+          columnCounter: a40e2f42-0db4-4fbc-85f7-69d05ccefa26
+          stepCounter: b0525d2e-295f-4415-aed6-e0842174e4d4
         config: {}
         dataType: DECIMAL
         description: ""
@@ -81,12 +81,12 @@ operation:
             nodeName: V_partsupp
         join:
           joinCondition: FROM {{ ref('DESTINATION', 'V_partsupp') }} `V_partsupp`
-        name: V_partsupp1
+        name: ADVV_partsupp
         noLinkRefs: []
-  name: V_partsupp1
+  name: ADVV_partsupp
   overrideSQL: false
   schema: ""
-  sqlType: advanced-deploy-package:::46
+  sqlType: "108"
   type: sql
   version: 1
 type: Node

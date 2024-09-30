@@ -1,0 +1,41 @@
+fileVersion: 1
+id: "108"
+isDisabled: false
+metadata:
+  defaultStorageLocation: null
+  error: null
+  nodeMetadataSpec: |
+    capitalized: Custom advanced view
+    short: ADVV
+    tagColor: '#C4C4FF'
+    isDisabled: true
+    plural: Advanced Views
+
+    config:
+      - groupName: Options
+        items:
+        - type: materializationSelector
+          options:
+            - view
+          default: view
+          isRequired: true
+
+        - type: toggleButton
+          attributeName: selectDistinct
+          displayName: Distinct
+
+        - type: multisourceToggle
+
+        - type: overrideSQLToggle
+
+        - displayName: Multi Source Strategy
+          attributeName: insertStrategy
+          type: dropdownSelector
+          default: UNION
+          options:
+          - "UNION"
+          - "UNION ALL"
+          isRequired: true
+          enableIf: "{% if node.isMultisource %} true {% else %} false {% endif %}"
+name: Custom advanced view
+type: NodeType
