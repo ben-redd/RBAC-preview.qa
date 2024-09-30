@@ -5,7 +5,7 @@ operation:
   config:
     insertStrategy: INSERT
     postSQL: ""
-    preSQL: pikachu!
+    preSQL: ""
     testsEnabled: true
     truncateBefore: true
   database: ""
@@ -129,6 +129,26 @@ operation:
               - columnCounter: d87e0679-228a-4b9a-a4ea-890dd3e0e723
                 stepCounter: 443d1630-1eda-41da-8068-fedb12e511da
             transform: ""
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 96986037-5c2e-4dd8-a850-39358b016931
+          stepCounter: b0d5ed55-3260-4fe3-a93c-6595c0268ed8
+        config: {}
+        dataType: pikachu!
+        defaultValue: ""
+        description: ""
+        keyColumnType: None
+        name: random
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: "0"
+                stepCounter: "0"
+            transform: ""
+        systemColumnType: None
     cteString: ""
     enabledColumnTestIDs: []
     sourceMapping:
