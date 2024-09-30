@@ -10,6 +10,7 @@ metadata:
     tagColor: '#C4C4FF'
     isDisabled: true
     plural: Advanced Views
+    deployStrategy: advanced
 
     config:
       - groupName: Options
