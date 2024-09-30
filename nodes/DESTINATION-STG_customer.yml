@@ -4,8 +4,8 @@ name: STG_customer
 operation:
   config:
     insertStrategy: INSERT
-    postSQL: sfj;ldasjfads'
-    preSQL: sfkjhae;f'sa
+    postSQL: ""
+    preSQL: pikachu!
     testsEnabled: true
     truncateBefore: true
   database: ""
@@ -44,7 +44,7 @@ operation:
           - columnReferences:
               - columnCounter: e1ec78bf-c508-4061-a04d-0f4aa20e2ac1
                 stepCounter: 443d1630-1eda-41da-8068-fedb12e511da
-            transform: "{{foo()}}"
+            transform: ""
       - appliedColumnTests: {}
         columnReference:
           columnCounter: 3ba2038a-1d11-4353-a2fd-19dfc10007f4
