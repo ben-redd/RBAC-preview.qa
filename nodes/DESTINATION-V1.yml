@@ -16,20 +16,6 @@ operation:
     columns:
       - appliedColumnTests: {}
         columnReference:
-          columnCounter: b09c77d7-ca47-4b52-bd88-529b8afd89da
-          stepCounter: 2d90e94d-fccc-4582-a2f1-3363bcd8a4ce
-        config: {}
-        dataType: LONG
-        description: ""
-        name: ps_suppkey
-        nullable: true
-        sourceColumnReferences:
-          - columnReferences:
-              - columnCounter: 2b55848d-dc14-4172-8ab2-11c8688cc779
-                stepCounter: ec3ac39f-aa15-4f0d-8836-2ac4d5375d7a
-            transform: ""
-      - appliedColumnTests: {}
-        columnReference:
           columnCounter: 924ef269-7661-4e2a-b0cf-bd1f384d4ae3
           stepCounter: 2d90e94d-fccc-4582-a2f1-3363bcd8a4ce
         config: {}
