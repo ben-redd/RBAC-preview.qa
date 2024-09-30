@@ -33,20 +33,6 @@ operation:
             transform: ""
       - appliedColumnTests: {}
         columnReference:
-          columnCounter: 504612ef-31b2-44f7-b9c1-2f24abef26c4
-          stepCounter: 843f89fc-26cb-4a9b-b0ef-225677642e47
-        config: {}
-        dataType: LONG
-        description: ""
-        name: l_partkey
-        nullable: true
-        sourceColumnReferences:
-          - columnReferences:
-              - columnCounter: ec06adef-c40b-4e11-a624-895d88884d66
-                stepCounter: 206f3d1e-544f-45bd-b40f-c00c0382f448
-            transform: ""
-      - appliedColumnTests: {}
-        columnReference:
           columnCounter: 9a204cc2-5077-4041-9269-95eac525eeb6
           stepCounter: 843f89fc-26cb-4a9b-b0ef-225677642e47
         config: {}
