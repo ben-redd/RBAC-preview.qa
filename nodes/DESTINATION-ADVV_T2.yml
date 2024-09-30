@@ -16,20 +16,6 @@ operation:
     columns:
       - appliedColumnTests: {}
         columnReference:
-          columnCounter: 82f5abbe-bb1c-4147-8e36-75467011bd58
-          stepCounter: ff405dbc-98c4-4cd6-8244-4a19ce62a3cc
-        config: {}
-        dataType: LONG
-        description: ""
-        name: l_orderkey
-        nullable: true
-        sourceColumnReferences:
-          - columnReferences:
-              - columnCounter: b023c173-a600-4a5c-a97b-5a45f85e7dd5
-                stepCounter: 1f8ffa81-7648-4e76-a7fe-480e404084c7
-            transform: ""
-      - appliedColumnTests: {}
-        columnReference:
           columnCounter: 46a0f14a-9541-4daf-a30f-b906a7aa79c3
           stepCounter: ff405dbc-98c4-4cd6-8244-4a19ce62a3cc
         config: {}
