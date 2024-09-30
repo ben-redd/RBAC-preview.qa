@@ -4,8 +4,8 @@ name: STG_customer
 operation:
   config:
     insertStrategy: INSERT
-    postSQL: SELECT 1 FROM {{ ref('DESTINATION', 'STG_customer') }} LIMIT 0
-    preSQL: SELECT 1 FROM {{ ref('DESTINATION', 'STG_customer') }} LIMIT 0
+    postSQL: sfj;ldasjfads'
+    preSQL: sfkjhae;f'sa
     testsEnabled: true
     truncateBefore: true
   database: ""
