@@ -3,7 +3,7 @@
     CREATE OR REPLACE TABLE {{ ref_no_link(desiredState.node.location.name, desiredState.node.name) }}
     (
         {% for col in desiredState.columns %}
-            "{{ col.name }}" {{ col.dataType }}
+            `{{ col.name }}` {{ col.dataType }}
             {%- if not col.nullable %} NOT NULL
                 {%- if col.defaultValue | length > 0 %} DEFAULT {{ col.defaultValue }}{% endif %}
             {% endif %}
@@ -20,7 +20,7 @@
     CREATE OR REPLACE TABLE {{ ref_no_link(desiredState.node.location.name, desiredState.node.name) }}
     (
         {% for col in desiredState.columns %}
-            "{{ col.name }}" {{ col.dataType }}
+            `{{ col.name }}` {{ col.dataType }}
             {%- if not col.nullable %} NOT NULL
                 {%- if col.defaultValue | length > 0 %} DEFAULT {{ col.defaultValue }}{% endif %}
             {% endif %}
