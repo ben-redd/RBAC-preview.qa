@@ -25,7 +25,7 @@ operation:
         dataType: LONG
         description: ""
         name: c_custkey
-        nullable: false
+        nullable: true
         sourceColumnReferences:
           - columnReferences:
               - columnCounter: a7eda6ee-3444-4dc7-9a4a-385b108db773
@@ -39,7 +39,7 @@ operation:
         dataType: STRING
         description: ""
         name: c_name
-        nullable: false
+        nullable: true
         sourceColumnReferences:
           - columnReferences:
               - columnCounter: 55b3f5da-76b0-468f-aa61-8ddb69489528
