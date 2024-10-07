@@ -5,7 +5,7 @@ metadata:
   defaultStorageLocation: null
   error: null
   nodeMetadataSpec: |
-    capitalized: Custom warehouse stage
+    capitalized: Custom warehouse stage edit
     short: CW_STG
     plural: Stages
     tagColor: '#123456'
