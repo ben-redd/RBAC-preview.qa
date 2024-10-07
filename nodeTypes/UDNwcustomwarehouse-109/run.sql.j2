@@ -81,7 +81,7 @@
 
 	{% for column in columns %}
 		{% for test in column.tests %}
-			{{ test_stage(column.name + ": " + test.name) }}
+			{{ test_stage(column.name + ": " + test.name + "added text...") }}
 			{{ test.templateString }}
 		{% endfor %}
 	{% endfor %}
