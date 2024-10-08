@@ -7,5 +7,5 @@ mappingDefinitions:
   SOURCE:
     database: coalesce
     schema: multisource_sample
-name: New Environment
+name: Multisource Databricks Env
 type: Environment
