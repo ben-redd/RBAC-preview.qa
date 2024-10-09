@@ -27,11 +27,11 @@ does not permit copying or modification for any other purpose.
             `{{ col.name }}` {{ col.dataType }}
             {%- if not col.nullable %} NOT NULL
             {% endif %}
-            {%- if col.description | length > 0 %} COMMENT '{{ col.description | escape }}'{% endif %}
+            {%- if col.description | length > 0 %} COMMENT '{{ col.description | escape }}_{{parameters.foo}}'{% endif %}
             {%- if not loop.last -%}, {% endif %}
         {% endfor %}
     )
-    {%- if node.description | length > 0 %} COMMENT '{{ col.description | escape }}_{{parameters.foo}}'{% endif %}
+    {%- if node.description | length > 0 %} COMMENT '{{ col.description | escape }}'{% endif %}
     TBLPROPERTIES('delta.columnMapping.mode' = 'name')
 
 
