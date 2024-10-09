@@ -85,7 +85,7 @@ operation:
           stepCounter: f16114dc-25aa-41ff-827f-9a4499aa34fa
         config: {}
         dataType: STRING
-        description: Normal description
+        description: "{{parameters.foo}}"
         name: c_phone
         nullable: true
         sourceColumnReferences:
