@@ -57,7 +57,7 @@ operation:
           stepCounter: f9445dee-1d93-41b4-a8bc-2444ba4d411e
         config: {}
         dataType: STRING
-        description: this is a description
+        description: original
         name: r_comment
         nullable: true
         sourceColumnReferences:
