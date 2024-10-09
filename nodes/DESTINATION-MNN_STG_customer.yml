@@ -23,23 +23,6 @@ operation:
   metadata:
     appliedNodeTests: []
     columns:
-      - acceptedValues:
-          strictMatch: true
-          values: []
-        appliedColumnTests: {}
-        columnReference:
-          columnCounter: 4da546f3-014d-44d4-9bb0-e1c4f01ab6d8
-          stepCounter: 27d0dd0a-748c-46e3-82f1-28294edae35a
-        config: {}
-        dataType: NUMBER
-        defaultValue: ""
-        description: ""
-        name: SYSTEM_COLUMN_1
-        nullable: true
-        sourceColumnReferences:
-          - columnReferences: []
-            transform: "1"
-        systemColumn1: true
       - appliedColumnTests: {}
         columnReference:
           columnCounter: 5bcec3bd-a3c7-466d-9112-fdf7108ffbba
