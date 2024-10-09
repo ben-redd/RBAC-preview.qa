@@ -1,0 +1,16 @@
+{% for source in sources %}
+  {{ stage('Insert into Table') }}
+  INSERT INTO {{ ref_no_link(node.location.name, node.name) }}
+  (
+     {% for col in source.columns %}
+       "{{ col.name }}"
+        {%- if not loop.last -%},{% endif %}
+     {% endfor %}
+  )
+  SELECT
+  {% for col in source.columns %}
+    {{ get_source_transform(col) }} AS "{{ col.name }}"
+    {%- if not loop.last -%}, {% endif %}
+  {% endfor %}
+  {{ source.join }}
+{% endfor %}
