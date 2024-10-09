@@ -37,7 +37,7 @@ operation:
           stepCounter: b0d5ed55-3260-4fe3-a93c-6595c0268ed8
         config: {}
         dataType: STRING
-        description: Description test
+        description: "{{parameters.foo}}"
         name: c_name
         nullable: true
         sourceColumnReferences:
