@@ -27,7 +27,7 @@ does not permit copying or modification for any other purpose.
             `{{ col.name }}` {{ col.dataType }}
             {%- if not col.nullable %} NOT NULL
             {% endif %}
-            {%- if col.description | length > 0 %} COMMENT '{{ col.description | escape }}_{{parameters.bar}}'{% endif %}
+            {%- if col.description | length > 0 %} COMMENT '{{ col.description }}_{{ parameters.bar }}'{% endif %}
             {%- if not loop.last -%}, {% endif %}
         {% endfor %}
     )
