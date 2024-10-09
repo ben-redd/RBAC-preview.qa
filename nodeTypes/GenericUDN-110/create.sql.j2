@@ -31,7 +31,7 @@ does not permit copying or modification for any other purpose.
             {%- if not loop.last -%}, {% endif %}
         {% endfor %}
     )
-    {%- if node.description | length > 0 %} COMMENT  '{{ col.description | escape }}_{{parameters.foo}}'{% endif %}
+    {%- if node.description | length > 0 %} COMMENT '{{ col.description | escape }}_{{parameters.foo}}'{% endif %}
     TBLPROPERTIES('delta.columnMapping.mode' = 'name')
 
 

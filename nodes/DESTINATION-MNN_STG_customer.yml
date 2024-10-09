@@ -16,7 +16,7 @@ operation:
     truncateBefore: false
   database: ""
   deployEnabled: true
-  description: ""
+  description: add a node description
   isMultisource: false
   locationName: DESTINATION
   materializationType: table
