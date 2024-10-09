@@ -23,7 +23,7 @@ operation:
           stepCounter: ac876375-1820-4999-9c51-69437af8e489
         config: {}
         dataType: LONG
-        description: ""
+        description: "{{parameters.foo}}"
         name: c_custkey
         nullable: true
         sourceColumnReferences:
@@ -132,14 +132,15 @@ operation:
     cteString: ""
     enabledColumnTestIDs: []
     sourceMapping:
-      - aliases: {}
+      - aliases:
+          customers0_src1: f7d14c89-0573-4290-884c-35ebe6fa2701
         customSQL:
           customSQL: ""
         dependencies:
           - locationName: SOURCE
             nodeName: customers0_src1
         join:
-          joinCondition: FROM {{ ref('SOURCE', 'customers0_src1') }} `customers0_src1`
+          joinCondition: FROM {{ ref('SOURCE', 'customers0_src1') }} `customers0_src1` WHERE `customers0_src1`.`c_acctbal` = {{parameters.my_number}}
         name: STG_customers0_src1
         noLinkRefs: []
   name: STG_customers0_src1
