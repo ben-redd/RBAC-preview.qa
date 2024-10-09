@@ -132,14 +132,15 @@ operation:
     cteString: ""
     enabledColumnTestIDs: []
     sourceMapping:
-      - aliases: {}
+      - aliases:
+          customer: 443d1630-1eda-41da-8068-fedb12e511da
         customSQL:
           customSQL: ""
         dependencies:
           - locationName: SOURCE
             nodeName: customer
         join:
-          joinCondition: FROM {{ ref('SOURCE', 'customer') }} `customer`
+          joinCondition: FROM {{ ref('SOURCE', 'customer') }} `customer` WHERE `customer`.`c_acctbal` > {{parameters.my_number}}
         name: STG_customer
         noLinkRefs: []
   name: STG_customer
