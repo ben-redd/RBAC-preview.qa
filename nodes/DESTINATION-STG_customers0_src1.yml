@@ -140,7 +140,7 @@ operation:
           - locationName: SOURCE
             nodeName: customers0_src1
         join:
-          joinCondition: FROM {{ ref('SOURCE', 'customers0_src1') }} `customers0_src1` WHERE `customers0_src1`.`c_acctbal` > {{parameters.my_number}}
+          joinCondition: FROM {{ ref('SOURCE', 'customers0_src1') }} `customers0_src1`
         name: STG_customers0_src1
         noLinkRefs: []
   name: STG_customers0_src1
