@@ -30,7 +30,7 @@ operation:
           - columnReferences:
               - columnCounter: 4daab974-b906-432c-bb7a-dfee25888672
                 stepCounter: 443d1630-1eda-41da-8068-fedb12e511da
-            transform: pikachu!
+            transform: ""
       - appliedColumnTests: {}
         columnReference:
           columnCounter: 8afb64ee-d580-4fee-ba17-55ad188975a3
