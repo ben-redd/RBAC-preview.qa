@@ -199,15 +199,6 @@ metadata:
                                                      # Jinja expression resulting in a quoted boolean may be used for dynamic behavior 
                                                      # (boolean string, 'true' | 'false', defaults 'true')
 
-        
-    systemColumns:                                   # Additional columns (rows in mapping grid) to initialize the node with (array of columns objects)
-    - displayName: 'SYSTEM_COLUMN_1'                 # Column display name (string, required) 
-                                                     # '{{NODE_NAME}}' token can be used in the displayName to reference the name of the current node
-      attributeName: 'systemColumn1'                 # Name of element used in templates (string, required)
-      transform: '1'                                 # Initialized transform value of system column (string, required)
-      dataType: 'NUMBER'                             # SQL data type (string, required)
-      placement: 'beginning'                         # Determines placement of system column in relation to normal columns.  (string, 'beginning' | 'end')
-
     mappingColumns:                                  # Adds additional columns to the mapping grid for additional metadata per node-column
     - type: textBox                                  # Generic textbox in mapping grid
       headerName: 'My Header'                        # GUI display name (string, required) 
