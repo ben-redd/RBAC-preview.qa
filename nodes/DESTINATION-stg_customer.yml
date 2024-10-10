@@ -15,9 +15,16 @@ operation:
   locationName: DESTINATION
   materializationType: table
   metadata:
-    appliedNodeTests: []
+    appliedNodeTests:
+      - continueOnFailure: true
+        description: ""
+        name: Test
+        runOrder: Before
+        templateString: SELECT * FROM {{ ref_no_link('DESTINATION', 'stg_customer')}} WHERE c_nationkey > 0
     columns:
-      - appliedColumnTests: {}
+      - appliedColumnTests:
+          hasNull: false
+          isDistinct: false
         columnReference:
           columnCounter: b6c3520e-a0e9-4b8f-8bb7-ced69fd7ba95
           stepCounter: 75af6447-181f-4c0f-94bf-17868336a056
@@ -31,7 +38,9 @@ operation:
               - columnCounter: 4daab974-b906-432c-bb7a-dfee25888672
                 stepCounter: 443d1630-1eda-41da-8068-fedb12e511da
             transform: ""
-      - appliedColumnTests: {}
+      - appliedColumnTests:
+          hasNull: false
+          isDistinct: false
         columnReference:
           columnCounter: 6b9be23f-2c8c-434e-82da-7c8edc503d8d
           stepCounter: 75af6447-181f-4c0f-94bf-17868336a056
@@ -45,7 +54,9 @@ operation:
               - columnCounter: e1ec78bf-c508-4061-a04d-0f4aa20e2ac1
                 stepCounter: 443d1630-1eda-41da-8068-fedb12e511da
             transform: ""
-      - appliedColumnTests: {}
+      - appliedColumnTests:
+          hasNull: false
+          isDistinct: false
         columnReference:
           columnCounter: 1a4346f6-7940-4866-b318-a8491d510d09
           stepCounter: 75af6447-181f-4c0f-94bf-17868336a056
@@ -59,7 +70,9 @@ operation:
               - columnCounter: 21e1fb6b-fb5f-43cd-aae9-faeb142c81c9
                 stepCounter: 443d1630-1eda-41da-8068-fedb12e511da
             transform: ""
-      - appliedColumnTests: {}
+      - appliedColumnTests:
+          hasNull: true
+          isDistinct: true
         columnReference:
           columnCounter: 8c1e4d39-fdd4-4fcc-92ad-2a3c930ac642
           stepCounter: 75af6447-181f-4c0f-94bf-17868336a056
@@ -73,7 +86,9 @@ operation:
               - columnCounter: d727c535-459a-4b10-ba10-6335cf6d9761
                 stepCounter: 443d1630-1eda-41da-8068-fedb12e511da
             transform: ""
-      - appliedColumnTests: {}
+      - appliedColumnTests:
+          hasNull: false
+          isDistinct: false
         columnReference:
           columnCounter: 707d5b20-384d-4c45-8d6d-e09b17b05c89
           stepCounter: 75af6447-181f-4c0f-94bf-17868336a056
@@ -87,7 +102,9 @@ operation:
               - columnCounter: 633efb00-3f13-4ddb-a30c-712d4017a5b3
                 stepCounter: 443d1630-1eda-41da-8068-fedb12e511da
             transform: ""
-      - appliedColumnTests: {}
+      - appliedColumnTests:
+          hasNull: false
+          isDistinct: false
         columnReference:
           columnCounter: 23c606fd-0504-4e55-961e-5eafd7957485
           stepCounter: 75af6447-181f-4c0f-94bf-17868336a056
@@ -101,7 +118,9 @@ operation:
               - columnCounter: 1cd6a0b7-7287-423d-9dd5-5e992b710dc8
                 stepCounter: 443d1630-1eda-41da-8068-fedb12e511da
             transform: ""
-      - appliedColumnTests: {}
+      - appliedColumnTests:
+          hasNull: false
+          isDistinct: false
         columnReference:
           columnCounter: caa620bf-3074-4918-8a49-3434f98cbc2d
           stepCounter: 75af6447-181f-4c0f-94bf-17868336a056
@@ -115,7 +134,9 @@ operation:
               - columnCounter: cb0ec8bb-9687-4614-b052-6689300f5367
                 stepCounter: 443d1630-1eda-41da-8068-fedb12e511da
             transform: ""
-      - appliedColumnTests: {}
+      - appliedColumnTests:
+          hasNull: false
+          isDistinct: false
         columnReference:
           columnCounter: ce5503f7-4422-4bd2-9ca2-a28792ca2403
           stepCounter: 75af6447-181f-4c0f-94bf-17868336a056
@@ -130,7 +151,9 @@ operation:
                 stepCounter: 443d1630-1eda-41da-8068-fedb12e511da
             transform: ""
     cteString: ""
-    enabledColumnTestIDs: []
+    enabledColumnTestIDs:
+      - isDistinct
+      - hasNull
     sourceMapping:
       - aliases: {}
         customSQL:
