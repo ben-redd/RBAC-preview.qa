@@ -30,7 +30,7 @@ operation:
           stepCounter: 75af6447-181f-4c0f-94bf-17868336a056
         config: {}
         dataType: LONG
-        description: ""
+        description: Test
         name: c_custkey
         nullable: true
         sourceColumnReferences:
@@ -168,7 +168,7 @@ operation:
   name: stg_customer
   overrideSQL: false
   schema: ""
-  sqlType: Stage
+  sqlType: "111"
   type: sql
   version: 1
 type: Node
