@@ -2,8 +2,8 @@ fileVersion: 1
 id: "88"
 mappingDefinitions:
   DESTINATION:
-    database: ben-dev
-    schema: dev-phased-deploy-env
+    database: qa_deploy_phases
+    schema: deploy_phase
   SOURCE:
     database: coalesce
     schema: sample_data
