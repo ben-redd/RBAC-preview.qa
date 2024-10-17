@@ -7,5 +7,8 @@ mappingDefinitions:
   SOURCE:
     database: coalesce
     schema: sample_data
+  STAGE2:
+    database: ""
+    schema: ""
 name: Databricks Main
 type: Environment

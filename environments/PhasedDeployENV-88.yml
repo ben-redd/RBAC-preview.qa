@@ -7,5 +7,8 @@ mappingDefinitions:
   SOURCE:
     database: coalesce
     schema: sample_data
+  STAGE2:
+    database: qa_deploy_phases2
+    schema: deploy_phase2
 name: Phased Deploy ENV
 type: Environment
