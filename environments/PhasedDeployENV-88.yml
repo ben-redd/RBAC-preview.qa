@@ -1,0 +1,11 @@
+fileVersion: 1
+id: "88"
+mappingDefinitions:
+  DESTINATION:
+    database: ben-dev
+    schema: dev-phased-deploy-env
+  SOURCE:
+    database: coalesce
+    schema: sample_data
+name: Phased Deploy ENV
+type: Environment
