@@ -28,7 +28,7 @@ operation:
         nullable: true
         sourceColumnReferences:
           - columnReferences: []
-            transform: "\"orders\".\"o_orderkey\""
+            transform: "`orders`.`o_orderkey`"
       - appliedColumnTests: {}
         columnReference:
           columnCounter: 13cb0752-fa06-42fb-ae4b-e5be2760c228
