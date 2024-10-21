@@ -1,26 +1,23 @@
 fileVersion: 1
-id: d7cbf01f-180b-4f99-a478-850c2ae38454
-name: stg_partsupp
+id: 52f0630e-bb24-4b89-b32f-913f38485a0a
+name: ADVV_T2
 operation:
   config:
-    insertStrategy: INSERT
-    postSQL: ""
-    preSQL: ""
-    testsEnabled: true
-    truncateBefore: true
+    insertStrategy: UNION
+    selectDistinct: false
   database: ""
   deployEnabled: true
   description: ""
   isMultisource: false
   locationName: DESTINATION
-  materializationType: table
+  materializationType: view
   metadata:
     appliedNodeTests: []
     columns:
       - appliedColumnTests: {}
         columnReference:
-          columnCounter: f1c71662-4d3f-4750-ad61-0aaca5f9f27e
-          stepCounter: d7cbf01f-180b-4f99-a478-850c2ae38454
+          columnCounter: 61e36a78-e8ce-43b9-90cf-2163b1e2488c
+          stepCounter: 52f0630e-bb24-4b89-b32f-913f38485a0a
         config: {}
         dataType: LONG
         description: ""
@@ -33,8 +30,8 @@ operation:
             transform: ""
       - appliedColumnTests: {}
         columnReference:
-          columnCounter: 01def1a8-103e-44f0-8ba0-8fb8b949ee8c
-          stepCounter: d7cbf01f-180b-4f99-a478-850c2ae38454
+          columnCounter: deb75c45-f5ae-4f7d-ae80-6673d488ddf8
+          stepCounter: 52f0630e-bb24-4b89-b32f-913f38485a0a
         config: {}
         dataType: LONG
         description: ""
@@ -47,8 +44,8 @@ operation:
             transform: ""
       - appliedColumnTests: {}
         columnReference:
-          columnCounter: f5614058-ce60-40d7-a18e-30bd8a31731a
-          stepCounter: d7cbf01f-180b-4f99-a478-850c2ae38454
+          columnCounter: 307d301c-0e42-4f96-beec-8aa2c0265b0d
+          stepCounter: 52f0630e-bb24-4b89-b32f-913f38485a0a
         config: {}
         dataType: INT
         description: ""
@@ -61,8 +58,8 @@ operation:
             transform: ""
       - appliedColumnTests: {}
         columnReference:
-          columnCounter: ba6a6ab8-9277-4a4f-a882-28132f3c7ede
-          stepCounter: d7cbf01f-180b-4f99-a478-850c2ae38454
+          columnCounter: 6a119e57-dadd-48f3-a592-f9d612cfc544
+          stepCounter: 52f0630e-bb24-4b89-b32f-913f38485a0a
         config: {}
         dataType: DECIMAL
         description: ""
@@ -75,8 +72,8 @@ operation:
             transform: ""
       - appliedColumnTests: {}
         columnReference:
-          columnCounter: 89c86fed-5338-46b9-8541-4c2c528d2a8c
-          stepCounter: d7cbf01f-180b-4f99-a478-850c2ae38454
+          columnCounter: 5f834dcc-4354-46ec-b3eb-874cd67aebf4
+          stepCounter: 52f0630e-bb24-4b89-b32f-913f38485a0a
         config: {}
         dataType: STRING
         description: ""
@@ -98,12 +95,12 @@ operation:
             nodeName: partsupp
         join:
           joinCondition: FROM {{ ref('SOURCE', 'partsupp') }} `partsupp`
-        name: stg_partsupp
+        name: ADVV_T2
         noLinkRefs: []
-  name: stg_partsupp
+  name: ADVV_T2
   overrideSQL: false
   schema: ""
-  sqlType: Stage
+  sqlType: "108"
   type: sql
   version: 1
 type: Node
