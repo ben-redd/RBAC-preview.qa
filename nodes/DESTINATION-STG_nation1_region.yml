@@ -114,7 +114,7 @@ operation:
           - columnReferences:
               - columnCounter: 6100805e-19cc-4060-98ae-4bd6edd98ae2
                 stepCounter: f63b2f02-a636-47e9-8047-449de3617e38
-            transform: ""
+            transform: UPPER(`STG_nation1`.`n_name`)
     cteString: ""
     enabledColumnTestIDs: []
     sourceMapping:

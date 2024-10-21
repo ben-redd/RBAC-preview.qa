@@ -4,4 +4,3 @@ id: "29"
 includeSelector: "{ location: DESTINATION name: STG_customer } OR { location: SOURCE name: customer } OR { location: DESTINATION name: B } OR { location: DESTINATION name: C }"
 name: Databricks job
 type: Job
-version: 2

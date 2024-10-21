@@ -142,7 +142,7 @@ operation:
           - columnReferences:
               - columnCounter: f493021a-7fd8-473f-9a23-d997d84ee5d9
                 stepCounter: 88da39b6-645a-4665-8afa-b199f858ce27
-            transform: ""
+            transform: UPPER(`orders`.`o_comment`)
     cteString: ""
     enabledColumnTestIDs: []
     sourceMapping:

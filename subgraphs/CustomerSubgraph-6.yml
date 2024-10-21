@@ -4,4 +4,3 @@ name: Customer Subgraph
 steps:
   - 443d1630-1eda-41da-8068-fedb12e511da
 type: Subgraph
-version: 1

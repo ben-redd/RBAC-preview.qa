@@ -155,7 +155,8 @@ operation:
       - isDistinct
       - hasNull
     sourceMapping:
-      - aliases: {}
+      - aliases:
+          customer: 443d1630-1eda-41da-8068-fedb12e511da
         customSQL:
           customSQL: ""
         dependencies:
