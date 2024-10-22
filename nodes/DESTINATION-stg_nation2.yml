@@ -44,7 +44,7 @@ operation:
           - columnReferences:
               - columnCounter: 4637078d-5aba-4950-a49d-3c9391855202
                 stepCounter: d62e4a14-383f-4d51-93fa-a963eafebcc7
-            transform: SELECT `n_comment` FROM `nation`
+            transform: ""
       - appliedColumnTests: {}
         columnReference:
           columnCounter: 90cd18c6-1092-4a58-936d-cea3f653e6a9
