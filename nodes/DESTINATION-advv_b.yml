@@ -70,20 +70,6 @@ operation:
               - columnCounter: c820494c-523f-43a6-b186-711fe74d9f4e
                 stepCounter: 85cd8485-82ee-4b0b-ba75-240511042987
             transform: ""
-      - appliedColumnTests: {}
-        columnReference:
-          columnCounter: e60fae0b-59e7-499e-952d-450d083f1092
-          stepCounter: 9e0718b8-06cf-45f9-8dcb-cb4eb6a91dae
-        config: {}
-        dataType: STRING
-        description: ""
-        name: ps_comment
-        nullable: true
-        sourceColumnReferences:
-          - columnReferences:
-              - columnCounter: 2e8e011e-49c2-46b3-846a-a31f5d2145f0
-                stepCounter: 85cd8485-82ee-4b0b-ba75-240511042987
-            transform: ""
     cteString: ""
     enabledColumnTestIDs: []
     sourceMapping:

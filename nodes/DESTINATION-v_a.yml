@@ -72,20 +72,6 @@ operation:
               - columnCounter: 9fba48ed-dba4-4ac8-bdaa-1f200c2c40dc
                 stepCounter: ec3ac39f-aa15-4f0d-8836-2ac4d5375d7a
             transform: ""
-      - appliedColumnTests: {}
-        columnReference:
-          columnCounter: 2e8e011e-49c2-46b3-846a-a31f5d2145f0
-          stepCounter: 85cd8485-82ee-4b0b-ba75-240511042987
-        config: {}
-        dataType: STRING
-        description: ""
-        name: ps_comment
-        nullable: true
-        sourceColumnReferences:
-          - columnReferences:
-              - columnCounter: 4d4480e3-e32b-4997-811b-416697476445
-                stepCounter: ec3ac39f-aa15-4f0d-8836-2ac4d5375d7a
-            transform: ""
     cteString: ""
     enabledColumnTestIDs: []
     sourceMapping:
