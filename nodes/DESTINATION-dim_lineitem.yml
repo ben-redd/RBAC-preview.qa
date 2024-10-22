@@ -47,6 +47,7 @@ operation:
         config: {}
         dataType: LONG
         description: ""
+        isBusinessKey: true
         name: l_orderkey
         nullable: true
         sourceColumnReferences:
