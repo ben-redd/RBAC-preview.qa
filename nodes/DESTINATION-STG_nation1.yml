@@ -4,7 +4,7 @@ name: STG_nation1
 operation:
   config:
     insertStrategy: INSERT
-    postSQL: SELECT * FROM `SOURCE`.`nation`
+    postSQL: ""
     preSQL: ""
     testsEnabled: true
     truncateBefore: true

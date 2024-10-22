@@ -6,7 +6,7 @@ metadata:
   error: null
   nodeMetadataSpec: |
     capitalized: Custom advanced view
-    short: ADVV
+    short: advv
     tagColor: '#C4C4FF'
     isDisabled: true
     plural: Advanced Views

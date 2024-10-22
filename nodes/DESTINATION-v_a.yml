@@ -1,8 +1,10 @@
 fileVersion: 1
-id: 52f0630e-bb24-4b89-b32f-913f38485a0a
-name: ADVV_T2
+id: 85cd8485-82ee-4b0b-ba75-240511042987
+name: v_a
 operation:
   config:
+    OverrideSQLCreate: false
+    groupByAll: false
     insertStrategy: UNION
     selectDistinct: false
   database: ""
@@ -16,8 +18,8 @@ operation:
     columns:
       - appliedColumnTests: {}
         columnReference:
-          columnCounter: 61e36a78-e8ce-43b9-90cf-2163b1e2488c
-          stepCounter: 52f0630e-bb24-4b89-b32f-913f38485a0a
+          columnCounter: 7f212369-fc6a-4109-befe-377059595254
+          stepCounter: 85cd8485-82ee-4b0b-ba75-240511042987
         config: {}
         dataType: LONG
         description: ""
@@ -30,8 +32,8 @@ operation:
             transform: ""
       - appliedColumnTests: {}
         columnReference:
-          columnCounter: deb75c45-f5ae-4f7d-ae80-6673d488ddf8
-          stepCounter: 52f0630e-bb24-4b89-b32f-913f38485a0a
+          columnCounter: d6a4c6fa-09dd-437f-ba6e-b0056344d705
+          stepCounter: 85cd8485-82ee-4b0b-ba75-240511042987
         config: {}
         dataType: LONG
         description: ""
@@ -44,8 +46,8 @@ operation:
             transform: ""
       - appliedColumnTests: {}
         columnReference:
-          columnCounter: 307d301c-0e42-4f96-beec-8aa2c0265b0d
-          stepCounter: 52f0630e-bb24-4b89-b32f-913f38485a0a
+          columnCounter: 06210fc3-a84e-481b-b5af-83f9b5597ba1
+          stepCounter: 85cd8485-82ee-4b0b-ba75-240511042987
         config: {}
         dataType: INT
         description: ""
@@ -58,8 +60,8 @@ operation:
             transform: ""
       - appliedColumnTests: {}
         columnReference:
-          columnCounter: 6a119e57-dadd-48f3-a592-f9d612cfc544
-          stepCounter: 52f0630e-bb24-4b89-b32f-913f38485a0a
+          columnCounter: c820494c-523f-43a6-b186-711fe74d9f4e
+          stepCounter: 85cd8485-82ee-4b0b-ba75-240511042987
         config: {}
         dataType: DECIMAL
         description: ""
@@ -72,8 +74,8 @@ operation:
             transform: ""
       - appliedColumnTests: {}
         columnReference:
-          columnCounter: 5f834dcc-4354-46ec-b3eb-874cd67aebf4
-          stepCounter: 52f0630e-bb24-4b89-b32f-913f38485a0a
+          columnCounter: 2e8e011e-49c2-46b3-846a-a31f5d2145f0
+          stepCounter: 85cd8485-82ee-4b0b-ba75-240511042987
         config: {}
         dataType: STRING
         description: ""
@@ -95,12 +97,12 @@ operation:
             nodeName: partsupp
         join:
           joinCondition: FROM {{ ref('SOURCE', 'partsupp') }} `partsupp`
-        name: ADVV_T2
+        name: v_a
         noLinkRefs: []
-  name: ADVV_T2
+  name: v_a
   overrideSQL: false
   schema: ""
-  sqlType: "108"
+  sqlType: View
   type: sql
   version: 1
 type: Node

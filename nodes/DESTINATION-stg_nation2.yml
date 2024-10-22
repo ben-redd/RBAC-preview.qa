@@ -1,5 +1,5 @@
 fileVersion: 1
-id: 02c32a03-89ad-4612-9304-219ec599718e
+id: bf781e60-1e8e-4d0e-9daf-b69e21459e11
 name: stg_nation2
 operation:
   config:
@@ -8,7 +8,6 @@ operation:
     preSQL: ""
     testsEnabled: true
     truncateBefore: true
-    warehouse: TRANSFORMING_WH
   database: ""
   deployEnabled: true
   description: ""
@@ -20,8 +19,8 @@ operation:
     columns:
       - appliedColumnTests: {}
         columnReference:
-          columnCounter: 97eb219d-8011-4014-a44d-d468aabdc866
-          stepCounter: 02c32a03-89ad-4612-9304-219ec599718e
+          columnCounter: 48ec9360-2341-4069-a7d0-2443142e07c8
+          stepCounter: bf781e60-1e8e-4d0e-9daf-b69e21459e11
         config: {}
         dataType: LONG
         description: ""
@@ -34,8 +33,8 @@ operation:
             transform: ""
       - appliedColumnTests: {}
         columnReference:
-          columnCounter: 0f64a580-5aba-445f-b45c-3b723b3f8311
-          stepCounter: 02c32a03-89ad-4612-9304-219ec599718e
+          columnCounter: b3164c32-7820-4e28-b45c-50bafcaed930
+          stepCounter: bf781e60-1e8e-4d0e-9daf-b69e21459e11
         config: {}
         dataType: STRING
         description: ""
@@ -45,11 +44,11 @@ operation:
           - columnReferences:
               - columnCounter: 4637078d-5aba-4950-a49d-3c9391855202
                 stepCounter: d62e4a14-383f-4d51-93fa-a963eafebcc7
-            transform: ""
+            transform: SELECT `n_comment` FROM `nation`
       - appliedColumnTests: {}
         columnReference:
-          columnCounter: d2840f93-4d61-40f9-8ed9-1b22e3eadc1f
-          stepCounter: 02c32a03-89ad-4612-9304-219ec599718e
+          columnCounter: 90cd18c6-1092-4a58-936d-cea3f653e6a9
+          stepCounter: bf781e60-1e8e-4d0e-9daf-b69e21459e11
         config: {}
         dataType: LONG
         description: ""
@@ -62,8 +61,8 @@ operation:
             transform: ""
       - appliedColumnTests: {}
         columnReference:
-          columnCounter: 0f5906ae-31eb-4f15-b1dc-2dd25db7c54b
-          stepCounter: 02c32a03-89ad-4612-9304-219ec599718e
+          columnCounter: 388c601f-e276-47df-a03d-074cec4142e2
+          stepCounter: bf781e60-1e8e-4d0e-9daf-b69e21459e11
         config: {}
         dataType: STRING
         description: ""
@@ -90,7 +89,7 @@ operation:
   name: stg_nation2
   overrideSQL: false
   schema: ""
-  sqlType: "116"
+  sqlType: Stage
   type: sql
   version: 1
 type: Node
