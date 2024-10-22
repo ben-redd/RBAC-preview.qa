@@ -33,11 +33,9 @@
         {% endif %}
     {% endfor %}
 {% elif currentState is defined and desiredState is defined and currentState != desiredState %}
-   {{ stage('Drop for recreate View', true, "sql", "drop") }}
-   DROP VIEW {{ ref_no_link(currentState.node.location.name, currentState.node.name) }}
+   {{ stage('Alter View', true, "sql", "create") }}
 
-   {{ stage('Recreate Advanced View', true, "sql", "create") }}
-    CREATE OR REPLACE VIEW {{ ref_no_link(desiredState.node.location.name, desiredState.node.name) }}
+   CREATE OR REPLACE VIEW {{ ref_no_link(desiredState.node.location.name, desiredState.node.name) }}
     (
         {% for col in desiredState.columns %}
             `{{ col.name }}`
