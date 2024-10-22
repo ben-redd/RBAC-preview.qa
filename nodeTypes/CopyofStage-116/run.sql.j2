@@ -23,11 +23,15 @@ does not permit copying or modification for any other purpose.
 
     {# == Queries to be executed before data insertion  == #}
 
+    {% if config.warehouse %}
+        {{stage('Use Warehouse')}}
+        use warehouse "{{config.warehouse}}"
+    {% endif %}
+
     {% if config.preSQL %}
         {{ stage('Pre-SQL') }}
         {{ config.preSQL }}
     {% endif %}
-
 
     {# == Multi-Source option  == #}
 
@@ -124,15 +128,3 @@ does not permit copying or modification for any other purpose.
         {% endfor %}
     {% endfor %}
 {% endif %}
-
-{% if node.materializationType == 'table' %}
-    {% if config.warehouse %}
-        {{stage('Use Warehouse')}}
-        use warehouse `{{config.warehouse}}`
-    {% endif %}
-    {% if config.preSQL %}
-        {{ stage('Pre-SQL') }}
-        {{ config.preSQL }}
-    {% endif %}
-{% endif %}
-
