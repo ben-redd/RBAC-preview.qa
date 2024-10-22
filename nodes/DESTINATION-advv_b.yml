@@ -16,20 +16,6 @@ operation:
     columns:
       - appliedColumnTests: {}
         columnReference:
-          columnCounter: 9d60886f-1e37-402f-b584-7897ac53e22f
-          stepCounter: 9e0718b8-06cf-45f9-8dcb-cb4eb6a91dae
-        config: {}
-        dataType: LONG
-        description: ""
-        name: ps_partkey
-        nullable: true
-        sourceColumnReferences:
-          - columnReferences:
-              - columnCounter: 7f212369-fc6a-4109-befe-377059595254
-                stepCounter: 85cd8485-82ee-4b0b-ba75-240511042987
-            transform: ""
-      - appliedColumnTests: {}
-        columnReference:
           columnCounter: 8ff52017-5b47-44c3-8472-5ff3bf9bbfc0
           stepCounter: 9e0718b8-06cf-45f9-8dcb-cb4eb6a91dae
         config: {}
