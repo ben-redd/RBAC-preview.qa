@@ -25,7 +25,7 @@ does not permit copying or modification for any other purpose.
 
     {% if config.warehouse %}
         {{stage('Use Warehouse')}}
-        use warehouse "{{config.warehouse}}"
+        use warehouse `{{config.warehouse}}`
     {% endif %}
 
     {% if config.preSQL %}
