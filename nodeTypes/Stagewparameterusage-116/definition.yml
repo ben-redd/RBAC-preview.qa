@@ -5,10 +5,10 @@ metadata:
   defaultStorageLocation: null
   error: null
   nodeMetadataSpec: |
-    capitalized: Copy of Stage
-    short: stg
-    plural: Stages
-    tagColor: '#2EB67D'
+    capitalized: Stage w. Parameter
+    short: stgwp
+    plural: Stages w. parameters
+    tagColor: '#2EB67F'
 
     config:
     - groupName: Options
@@ -64,5 +64,5 @@ metadata:
         type: textBox
         syntax: sql
         isRequired: false
-name: Copy of Stage
+name: Stage w. parameter usage
 type: NodeType
