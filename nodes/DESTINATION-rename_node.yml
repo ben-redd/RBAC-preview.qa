@@ -1,6 +1,6 @@
 fileVersion: 1
 id: bf781e60-1e8e-4d0e-9daf-b69e21459e11
-name: stg_nation2
+name: rename_node
 operation:
   config:
     insertStrategy: INSERT
@@ -84,9 +84,9 @@ operation:
             nodeName: STG_nation1
         join:
           joinCondition: FROM {{ ref('DESTINATION', 'STG_nation1') }} `STG_nation1`
-        name: stg_nation2
+        name: rename_node
         noLinkRefs: []
-  name: stg_nation2
+  name: rename_node
   overrideSQL: false
   schema: ""
   sqlType: Stage
