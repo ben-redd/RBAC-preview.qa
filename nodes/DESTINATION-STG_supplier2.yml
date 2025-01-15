@@ -44,7 +44,7 @@ operation:
           - columnReferences:
               - columnCounter: f187a0ab-a46d-4cd5-a26c-68f6195b826f
                 stepCounter: 104b889a-e795-4eaf-8d22-c2a0691e2bec
-            transform: ""
+            transform: upper(`STG_supplier`.`s_name`)
       - appliedColumnTests: {}
         columnReference:
           columnCounter: 7c5d4704-978b-4b9b-a389-a58937108b5c
